@@ -1,0 +1,49 @@
+.valorTotal{
+    display: flex;
+    width: 363px;
+    height: 96px;
+    background: #FFFFFF;
+    border: 1px solid #E9ECEF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.valorTotal div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 24px;
+}
+
+.valorTotal h2{
+    margin-bottom: 8px;
+    font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: #212529;
+}
+
+.valorTotal p{
+    font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+color: #868E96;
+width: 150px;
+}
+
+.valorTotal span{
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: #FD377E;
+margin-right: 24px;
+}

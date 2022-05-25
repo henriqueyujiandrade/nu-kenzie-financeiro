@@ -1,0 +1,110 @@
+.form{
+    width: 363px;
+    height: 351px;
+    border: 1px solid #E9ECEF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    
+}
+
+.descricaoLabel{
+margin-top: 38px;
+}
+
+.form label p{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+margin-bottom: 12px;
+color: #212529;
+}
+
+.inputDescricao{
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+box-sizing: border-box;
+border-radius: 8px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #868E96;
+width: 314px;
+height:52.8px;
+margin-bottom: 4.4px;
+}
+
+.form span{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: #868E96;
+margin-bottom: 17.7px;
+}
+
+.form div{
+    display: flex;
+    margin-bottom: 19px;
+    
+}
+
+.valorLabel{
+    margin-right: 36px;
+}
+
+.inputValor{
+    width: 128px;
+    height: 48px;
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.inputType{
+    background: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 150px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 26px;
+color: #868E96;
+}
+
+form button{
+    width: 314px;
+    height: 48px;
+    background: #FD377E;
+    border: 2px solid #FD377E;
+box-sizing: border-box;
+border-radius: 8px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+form button:hover{
+    background: #FFFFFF;
+    color: #FD377E;
+    cursor:pointer;
+
+}

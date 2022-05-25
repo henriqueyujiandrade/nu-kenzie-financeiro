@@ -1,0 +1,97 @@
+figure{
+    width: 562px;
+}
+
+figure img{
+    width: 100%;
+}
+
+
+
+.cardList{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 436px;
+}
+
+.cardList li{
+    display: flex;
+    width: 556px;
+    height: 87px;
+    background: #F8F9FA;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    justify-content: space-between;
+
+}
+
+.Entrada{
+border-left: 4px solid #03B898;
+}
+
+.Despesa{
+border-left: 4px solid #E9ECEF;
+}
+
+.cardList li div{
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.cardList li div h2{
+    font-family:'Nunito', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: #212529;
+}
+
+.cardList li div p{
+    font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+color: #868E96;
+}
+
+.cardList li span{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #212529;
+    margin-top: 18px;
+    margin-left: 110px;
+}
+
+.cardList li button{
+    background: #E9ECEF;
+    border-radius: 2.46154px;
+    width: 22px;
+    height: 22px;
+    margin-right: 13px;
+    margin-top: 18px;
+    border: 2px solid transparent;
+    padding: 0;
+    color:#868E96;
+}
+
+.cardList li button:hover{
+    cursor: pointer;
+    background: #212529;
+    color:#E9ECEF;
+
+}
+
+
+
+
+
+

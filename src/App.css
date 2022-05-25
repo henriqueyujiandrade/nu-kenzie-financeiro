@@ -1,0 +1,20 @@
+.App {
+ background-color: #FFFFFF; 
+ 
+}
+body{
+  font-family: sans-serif;
+}
+
+main{
+  display: flex;
+  
+}
+
+.formAndValue{
+  margin-left: 258px;
+  margin-right: 59px;
+}
+
+
+

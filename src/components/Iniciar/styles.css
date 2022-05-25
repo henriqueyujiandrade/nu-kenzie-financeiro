@@ -1,0 +1,92 @@
+.inicio{
+    display: flex;
+    height: 781px;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    
+}
+
+.tituloInicial{
+    display: flex;
+    flex-direction: column;
+    height: 593px;
+    justify-content: center;
+}
+.tituloInicial h1{
+    width: 122.68px;
+    height: 19.53px;
+    margin-bottom: 30px;
+}
+
+
+.tituloInicial h1 figure{
+    width: 122.68px;
+    height: 19.53px;
+}
+.tituloInicial h1 figure img{
+    width: 100%;
+}
+
+.tituloInicial h2{
+    width: 347px;
+    height: 144px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.tituloInicial span{
+    width: 260px;
+    height: 26px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.tituloInicial button{
+    width: 241px;
+    height: 48px;
+    background: #FD377E;
+    border: 2px solid #FD377E;
+box-sizing: border-box;
+border-radius: 8px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+
+}
+
+.tituloInicial button:hover{
+    background: #FFFFFF;
+    color: #FD377E;
+    cursor:pointer;
+}
+
+
+
+
+
+.imagemInicial{
+    width: 593px;
+    height: 593px;
+}
+
+.imagemInicial figure{
+    width: 593px;
+    height: 593px;
+}
+.imagemInicial figure img{
+    width: 100%;
+}
